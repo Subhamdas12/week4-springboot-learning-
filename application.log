@@ -1,0 +1,31 @@
+2024-10-22T00:09:31.403+05:30  INFO 8472 --- [week4] [main] com.week4.week4.Week4Application         : Starting Week4Application using Java 21.0.2 with PID 8472 (D:\Spring\spring 0 to 1\week4\week4\target\classes started by ASUS in D:\Spring\spring 0 to 1\week4\week4)
+2024-10-22T00:09:31.418+05:30  INFO 8472 --- [week4] [main] com.week4.week4.Week4Application         : No active profile set, falling back to 1 default profile: "default"
+2024-10-22T00:09:33.161+05:30  INFO 8472 --- [week4] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-22T00:09:33.275+05:30  INFO 8472 --- [week4] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 1 JPA repository interface.
+2024-10-22T00:09:34.525+05:30  INFO 8472 --- [week4] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-22T00:09:34.541+05:30  INFO 8472 --- [week4] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-22T00:09:34.542+05:30  INFO 8472 --- [week4] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-22T00:09:34.642+05:30  INFO 8472 --- [week4] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-22T00:09:34.643+05:30  INFO 8472 --- [week4] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3136 ms
+2024-10-22T00:09:35.199+05:30  INFO 8472 --- [week4] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-22T00:09:35.345+05:30  INFO 8472 --- [week4] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-22T00:09:35.402+05:30  INFO 8472 --- [week4] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-22T00:09:35.544+05:30  INFO 8472 --- [week4] [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2024-10-22T00:09:35.857+05:30  INFO 8472 --- [week4] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-22T00:09:35.921+05:30  INFO 8472 --- [week4] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-22T00:09:36.183+05:30  INFO 8472 --- [week4] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c164f81
+2024-10-22T00:09:36.185+05:30  INFO 8472 --- [week4] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-22T00:09:36.616+05:30  INFO 8472 --- [week4] [main] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.week4.week4.entities.PostEntity
+2024-10-22T00:09:37.580+05:30 ERROR 8472 --- [week4] [main] o.h.metamodel.internal.MetadataContext   : HHH015007: Illegal argument on static metamodel field injection : org.hibernate.envers.DefaultRevisionEntity_#class_; expected type :  org.hibernate.metamodel.model.domain.internal.EntityTypeImpl; encountered type : jakarta.persistence.metamodel.MappedSuperclassType
+2024-10-22T00:09:37.586+05:30  INFO 8472 --- [week4] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-22T00:09:37.812+05:30  INFO 8472 --- [week4] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-22T00:09:38.616+05:30  WARN 8472 --- [week4] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-22T00:09:39.824+05:30  INFO 8472 --- [week4] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-10-22T00:09:39.947+05:30  INFO 8472 --- [week4] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-22T00:09:39.983+05:30  INFO 8472 --- [week4] [main] com.week4.week4.Week4Application         : Started Week4Application in 9.161 seconds (process running for 10.053)
+2024-10-22T00:09:40.059+05:30  INFO 8472 --- [week4] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-22T00:09:40.060+05:30  INFO 8472 --- [week4] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-22T00:09:40.062+05:30  INFO 8472 --- [week4] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-22T00:10:03.586+05:30  INFO 8472 --- [week4] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-22T00:10:03.591+05:30  INFO 8472 --- [week4] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-22T00:10:03.608+05:30  INFO 8472 --- [week4] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
